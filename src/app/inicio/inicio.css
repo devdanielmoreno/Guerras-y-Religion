@@ -1,0 +1,156 @@
+.deslizar {
+    font-style: italic;
+    color: #888;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.imagen {
+    width: 80%;
+    max-width: 400px;
+    margin-left: 60%;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    overflow: hidden;
+    margin-top: -18%;
+}
+
+.texto {
+    width: 20%;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-top: 15%;
+    position: relative;
+}
+
+.lineas p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.lineas {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+
+.V {
+    font-family: 'Arial';
+}
+
+mat-card-title {
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+}
+
+mat-card-subtitle {
+    color: #333;
+}
+
+.contenedor-tarjetas .ejemplo-tarjeta {
+    width: 100%;
+    opacity: 0;
+    margin: 4%;
+    transition: opacity 0.5s ease;
+
+}
+
+.contenedor-tarjetas .ejemplo-tarjeta p {
+    margin-top: 2%;
+    color: rgb(7, 7, 7);
+}
+
+.contenido {
+    width: 90%;
+    height: 20%;
+
+}
+
+.contenido3{
+    width: 60%;
+    height: 6.5%;
+
+}
+
+.contenido2 {
+    height: 22%;
+}
+.contenedor.mostrar,
+.contenedor-tarjetas.mostrar .ejemplo-tarjeta {
+    opacity: 1;
+
+}
+
+.h1 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: -50px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+}
+
+.p {
+    font-family: 'Salsa', cursive;
+    font-size: 20px;
+    color: #333;
+}
+
+.card {
+    font-family: 'Salsa', cursive;
+    font-size: 16px;
+}
+mat-card-content{
+    margin-top: 5%;
+}
+
+.imagen img {
+    width: 50%;
+}
+
+.ejemplo-tarjeta {
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.example-header-image {
+    background-image: url('../../assets/planeta.png');
+    background-size: cover;
+}
+
+.example-header-image2 {
+    background-image: url('../../assets/religion.png');
+    background-size: cover;
+}
+
+.example-header-image3 {
+    background-image: url('../../assets/protestas.jpg');
+    background-size: cover;
+}
+
+mat-spinner {
+    position: relative;
+    top: -40px;
+    margin-left: 70%;
+    
+}

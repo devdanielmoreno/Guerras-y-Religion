@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+.imagenes2{
+  width: 480px;
+  height: 400px;
+  margin-top: 30px;
+  margin-right: 4%;
+  margin-bottom: 2%;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 65%;
+  
+}
+
+.titulo {
+    font-size: 36px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top:1% ;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Salsa' , cursive;
+}
+  mat-icon{
+    margin-left: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 1%;
+  }
+
+  mat-icon:hover {
+    color: #353535; 
+    transform: scale(1.1);
+    
+  }
+.copiar1{
+  margin-bottom: -355px;
+}
+
+.copiar2{
+  margin-bottom: -375px;
+}
+
+.informacion1{
+  background-color: #ffffff;
+  padding: 3%;
+  width: 50%;
+  height: 78%;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+mat-grid-tile {
+  background: lightblue;
+}
+
+.tabla{
+  width: 510px;
+  float: right;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+.todo{
+  margin-bottom: 3.85%;
+}

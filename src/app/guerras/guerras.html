@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relación entre Religión y Geopolítica en Guerras Históricas</title>
+</head>
+
+<body>
+ <div class="todo">
+  <mat-tab-group [(selectedIndex)]="seleccionado" (selectedIndexChange)="copiarTexto()">
+    <mat-tab label="Guerra Santa"> 
+      <div class="tabla">
+        <mat-grid-list cols="2">
+          <mat-grid-tile *ngFor="let imagen of imagenes" [@fadeIn]>
+            <img class="imagenes2" [src]="imagen.src" alt="Imagen">
+          </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+      <div class="informacion1">
+        <h2 class="titulo">La guerra santa</h2>
+        <br>
+        <mat-icon class="copiar1" (click)="copiarTexto()">file_copy</mat-icon>
+        <p>La noción de la "Guerra Santa" en el Islam, conocida como yihad, abarca un concepto complejo que ha sido interpretado de diversas maneras a lo largo de la historia. Mientras algunos la entienden como un llamado a la lucha armada, es crucial destacar que existe una amplia gama de interpretaciones,\n y no todos los musulmanes la ven como una justificación para la violencia. La Doctrina Truman, anunciada en 1947, establecía el compromiso de Estados Unidos de contener la expansión del comunismo en todo el mundo. </p><br>
+        <p>La yihad se ha asociado con motivos como la defensa contra la opresión, la persecución de musulmanes y, en algunos casos, la expansión justa del Islam. La jerarquía de causas justas incluye la lucha contra la injusticia como la más noble. Sin embargo, es esencial subrayar que la interpretación pacífica y espiritual de la yihad es adoptada por la mayoría de los musulmanes en la actualidad. Este resumen busca ofrecer una comprensión equilibrada de la Guerra Santa en el Islam, reconociendo su diversidad de interpretaciones y destacando el énfasis de la mayoría de los musulmanes en la promoción de la paz y la convivencia pacífica.</p>
+      </div>
+    </mat-tab>
+    <mat-tab label="Guerra Fría">
+      <div class="tabla">
+        <mat-grid-list cols="2">
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/fria.jpg">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/fria2.jpg">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/fria4.jpg">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/fria4.jpeg">
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+      <div class="informacion1">
+        <h2 class="titulo">Guerra Fría</h2>
+        <mat-icon class="copiar2" (click)="copiarTexto()">file_copy</mat-icon>
+        <p>Aunque la Guerra Fría fue principalmente un conflicto ideológico y político entre Estados Unidos y la Unión Soviética, también hubo implicaciones religiosas. La Iglesia Católica desempeñó un papel en la resistencia contra el comunismo en Europa del Este, especialmente en países como Polonia con el movimiento sindical Solidaridad liderado por Lech Walesa. En los países del bloque comunista, la práctica religiosa estaba a menudo restringida y la ideología oficial del comunismo promovía un ateísmo estatal. La Iglesia Católica y otras instituciones religiosas fueron perseguidas en varios lugares, especialmente en la Unión Soviética y sus satélites.</p><br>
+        <p>En muchos países occidentales, la lucha contra el comunismo estuvo vinculada con valores religiosos. El anticomunismo fue a menudo presentado como una defensa contra una ideología que era percibida como ateísta y hostil hacia las creencias religiosas. Ambas superpotencias se involucraron en una intensa carrera armamentista, desarrollando armas nucleares y tecnologías militares avanzadas. El temor a la destrucción mutua aseguró un equilibrio del terror, pero también contribuyó a una atmósfera de desconfianza y hostilidad.</p>
+      </div>
+    </mat-tab>
+    <mat-tab label="Guerra en los Balcanes">
+      <div class="tabla">
+        <mat-grid-list cols="2">
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/balca1.jpg">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/balca2.jpeg">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/balca3.jpg">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img class="imagenes2" src="./assets/balca4.jpg">
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+      <div class="informacion1">
+        <h2 class="titulo">Guerra en los Balcanes</h2>
+        <mat-icon class="copiar2" (click)="copiarTexto()">file_copy</mat-icon>
+        <p>Los conflictos en la antigua Yugoslavia fueron complejos y tenían diversas dimensiones, incluyendo las étnicas y religiosas. En algunos casos, como en Bosnia y Herzegovina, se produjeron enfrentamientos entre comunidades católicas, ortodoxas y musulmanas. Las disputas territoriales, especialmente en lugares como Kosovo y Bosnia y Herzegovina, fueron una causa importante. Grupos étnicos diferentes reclamaban territorios disputados, lo que llevó a conflictos violentos por el control y la autonomía.</p><br>
+        <p>En algunos casos, la identidad religiosa también desempeñó un papel en los conflictos. Por ejemplo, la Guerra de Bosnia (1992-1995) involucró tensiones entre comunidades musulmanas, ortodoxas serbias y croatas católicas. Las disputas territoriales, especialmente en lugares como Kosovo y Bosnia y Herzegovina, fueron una causa importante. Grupos étnicos diferentes reclamaban territorios disputados, lo que llevó a conflictos violentos por el control y la autonomía.La Doctrina Truman, anunciada en 1947, establecía el compromiso de Estados Unidos de contener la expansión del comunismo en todo el mundo. Esta política llevó a la intervención estadounidense en conflictos como la Guerra de Corea y la Guerra de Vietnam.</p>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+</body>
+
+</html>

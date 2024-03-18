@@ -1,0 +1,279 @@
+{
+  "continentes": [
+    {
+      "nombre": "Europa",
+      "paises": [
+        {
+          "nombre": "España",
+          "guerras": [
+            { "nombre": "Guerra Civil Española", "year": 1936, "muertes": 9234  , "religiones": ["Catolicismo", "Ateísmo"] },
+            { "nombre": "Guerra de la Independencia", "year": 1808, "muertes":  30000 , "religiones": ["Catolicismo", "Ateísmo", "Protestantismo"] },
+            { "nombre": "Guerra de Sucesión Española", "year": 1701, "muertes":  40000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Conquista de Granada", "year": 1492, "muertes":  50000 , "religiones": ["Islam", "Catolicismo"] },
+            { "nombre": "Revolución de Asturias", "year": 1934, "muertes":  2000 , "religiones": ["Catolicismo"] }
+          ]
+        },
+        {
+          "nombre": "Francia",
+          "guerras": [
+            { "nombre": "Primera Guerra Mundial", "year": 1914, "muertes": 13000  , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] },
+            { "nombre": "Segunda Guerra Mundial", "year": 1939, "muertes": 550000  , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] },
+            { "nombre": "Guerra de los Cien Años", "year": 1337, "muertes":  2000000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de los Treinta Años", "year": 1618, "muertes":  8000000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de Napoleón", "year": 1803, "muertes":  3500000 , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] }
+          ]
+        },
+        {
+          "nombre": "Alemania",
+          "guerras": [
+            { "nombre": "Guerra Franco-Prusiana", "year": 1870, "muertes": 24000  , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de los Campesinos", "year": 1524, "muertes":  150000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de los Siete Años", "year": 1756, "muertes":  1000000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de los Treinta Años", "year": 1618, "muertes":  8000000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Batalla de Stalingrado", "year": 1942, "muertes": 2000000  , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] }
+          ]
+        },
+        {
+          "nombre": "Italia",
+          "guerras": [
+            { "nombre": "Guerras Púnicas", "year": 264, "muertes":  1000000 , "religiones": ["Paganismo", "Catolicismo"] },
+            { "nombre": "Guerras de la Independencia Italiana", "year": 1848, "muertes":  30000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de Etiopía", "year": 1935, "muertes": 400000  , "religiones": ["Cristianismo Ortodoxo", "Islam"] },
+            { "nombre": "Guerras Napoleónicas", "year": 1796, "muertes":  1200000 , "religiones": ["Catolicismo", "Protestantismo", "Judaísmo"] },
+            { "nombre": "Guerra de Véneto", "year": 1866, "muertes":  90000 , "religiones": ["Catolicismo", "Protestantismo"] }
+          ]
+        },
+        {
+          "nombre": "Reino Unido",
+          "guerras": [
+            { "nombre": "Guerra de los Cien Años", "year": 1337, "muertes":  1000000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerras Napoleónicas", "year": 1796, "muertes":  800000 , "religiones": ["Catolicismo", "Protestantismo", "Judaísmo"] },
+            { "nombre": "Guerra de los Treinta Años", "year": 1618, "muertes":  4000000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Primera Guerra Mundial", "year": 1914, "muertes": 100000  , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] },
+            { "nombre": "Segunda Guerra Mundial", "year": 1939, "muertes":  4500000 , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "América",
+      "paises": [
+        {
+          "nombre": "Estados Unidos",
+          "guerras": [
+            { "nombre": "Guerra de Secesión", "year": 1861, "muertes": 7500  , "religiones": ["Protestantismo", "Catolicismo"] },
+            { "nombre": "Guerra de Vietnam", "year": 1955, "muertes":  58000 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de la Independencia de los Estados Unidos", "year": 1775, "muertes":  25000 , "religiones": ["Protestantismo", "Catolicismo"] },
+            { "nombre": "Guerra Civil Americana", "year": 1861, "muertes": 75000  , "religiones": ["Protestantismo", "Catolicismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  2000000 , "religiones": ["Cristianismo", "Budismo", "Ateísmo"] }
+          ]
+        },
+        {
+          "nombre": "Brasil",
+          "guerras": [
+            { "nombre": "Guerra de la Triple Alianza", "year": 1864, "muertes":  50000 , "religiones": ["Catolicismo"] },
+            { "nombre": "Guerra de Canudos", "year": 1896, "muertes":  35000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de la Independencia de Brasil", "year": 1822, "muertes":  20000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de Acre", "year": 1902, "muertes":  3000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra del Paraguay", "year": 1864, "muertes":  100000 , "religiones": ["Catolicismo", "Protestantismo"] }
+          ]
+        },
+        {
+          "nombre": "Argentina",
+          "guerras": [
+            { "nombre": "Guerra del Desierto", "year": 1879, "muertes":  3000 , "religiones": ["Catolicismo", "Indígenas"] },
+            { "nombre": "Guerra de las Malvinas", "year": 1982, "muertes": 900  , "religiones": ["Catolicismo", "Protestantismo", "Ateísmo"] },
+            { "nombre": "Guerra del Paraná", "year": 1845, "muertes":  4000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de la Triple Alianza", "year": 1864, "muertes":  60000 , "religiones": ["Catolicismo"] },
+            { "nombre": "Guerra de Independencia de Argentina", "year": 1810, "muertes":  10000 , "religiones": ["Catolicismo", "Protestantismo"] }
+          ]
+        },
+        {
+          "nombre": "Mexico",
+          "guerras": [
+            { "nombre": "Guerra de la Independencia de Mexico", "year": 1810, "muertes":  150000 , "religiones": ["Catolicismo"] },
+            { "nombre": "Guerra Cristera", "year": 1926, "muertes":  250000 , "religiones": ["Catolicismo", "Ateísmo"] },
+            { "nombre": "Guerra de Intervención Estadounidense", "year": 1846, "muertes": 13000  , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra Mexicano-Estadounidense", "year": 1846, "muertes":  25000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de Reforma", "year": 1857, "muertes":  80000 , "religiones": ["Catolicismo", "Protestantismo"] }
+          ]
+        },
+        {
+          "nombre": "Canada",
+          "guerras": [
+            { "nombre": "Guerra de 1812", "year": 1812, "muertes":  15000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra del Golfo", "year": 1990, "muertes": 20  , "religiones": ["Catolicismo", "Protestantismo", "Islam"] },
+            { "nombre": "Guerra de los Siete Años", "year": 1756, "muertes":  18000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de la Independencia de Canadá", "year": 1837, "muertes":  3000 , "religiones": ["Catolicismo", "Protestantismo"] },
+            { "nombre": "Guerra de la Triple Alianza", "year": 1864, "muertes":  80000 , "religiones": ["Catolicismo", "Protestantismo"] }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asia",
+      "paises": [
+        {
+          "nombre": "China",
+          "guerras": [
+            { "nombre": "Guerra Civil China", "year": 1927, "muertes":  6000000 , "religiones": ["Confucianismo", "Taoísmo", "Budismo"] },
+            { "nombre": "Guerra del Opio", "year": 1839, "muertes":  2000000 , "religiones": ["Confucianismo", "Taoísmo", "Budismo"] },
+            { "nombre": "Guerra Sino-Japonesa", "year": 1937, "muertes": 20000  , "religiones": ["Confucianismo", "Taoísmo", "Budismo"] },
+            { "nombre": "Invasión Japonesa de China", "year": 1931, "muertes":  7000000 , "religiones": ["Confucianismo", "Taoísmo", "Budismo"] },
+            { "nombre": "Guerra Civil China", "year": 1946, "muertes":  8000000 , "religiones": ["Confucianismo", "Taoísmo", "Budismo"] }
+          ]
+        },
+        {
+          "nombre": "India",
+          "guerras": [
+            { "nombre": "Guerra Indo-Pakistaní de 1947", "year": 1947, "muertes":  1000000 , "religiones": ["Hinduismo", "Islam"] },
+            { "nombre": "Guerra Indo-Pakistaní de 1965", "year": 1965, "muertes":  300000 , "religiones": ["Hinduismo", "Islam"] },
+            { "nombre": "Guerra Indo-Pakistaní de 1971", "year": 1971, "muertes":  900000 , "religiones": ["Hinduismo", "Islam"] },
+            { "nombre": "Guerra de Kargil", "year": 1999, "muertes": 5000  , "religiones": ["Hinduismo", "Islam"] },
+            { "nombre": "Guerra Indo-China de 1962", "year": 1962, "muertes":  20000 , "religiones": ["Hinduismo", "Budismo"] }
+          ]
+        },
+        {
+          "nombre": "Japón",
+          "guerras": [
+            { "nombre": "Guerra del Pacífico", "year": 1941, "muertes":  2000000 , "religiones": ["Sintoísmo", "Budismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  1000000 , "religiones": ["Sintoísmo", "Budismo"] },
+            { "nombre": "Guerra Sino-Japonesa", "year": 1937, "muertes":  2000000 , "religiones": ["Sintoísmo", "Budismo"] },
+            { "nombre": "Guerra Ruso-Japonesa", "year": 1904, "muertes":  200000 , "religiones": ["Sintoísmo", "Budismo"] },
+            { "nombre": "Segunda Guerra Mundial", "year": 1939, "muertes":  3000000 , "religiones": ["Sintoísmo", "Budismo"] }
+          ]
+        },
+        {
+          "nombre": "Rusia",
+          "guerras": [
+            { "nombre": "Guerra Civil Rusa", "year": 1917, "muertes":  9000000 , "religiones": ["Cristianismo Ortodoxo", "Ateísmo"] },
+            { "nombre": "Guerras Napoleónicas", "year": 1799, "muertes":  2000000 , "religiones": ["Cristianismo Ortodoxo"] },
+            { "nombre": "Guerra Ruso-Japonesa", "year": 1904, "muertes":200000  , "religiones": ["Cristianismo Ortodoxo"] },
+            { "nombre": "Guerra de Crimea", "year": 1853, "muertes":  500000 , "religiones": ["Cristianismo Ortodoxo", "Islam"] },
+            { "nombre": "Guerra de Chechenia", "year": 1994, "muertes":  100000 , "religiones": ["Cristianismo Ortodoxo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Arabia Saudita",
+          "guerras": [
+            { "nombre": "Guerra Civil Yemení", "year": 2015, "muertes": 50000  , "religiones": ["Islam"] },
+            { "nombre": "Guerra de Yemen", "year": 1934, "muertes":  100000 , "religiones": ["Islam"] },
+            { "nombre": "Guerra de Yom Kippur", "year": 1973, "muertes":  20000 , "religiones": ["Islam", "Judaísmo"] },
+            { "nombre": "Guerra del Golfo", "year": 1990, "muertes": 20000  , "religiones": ["Islam"] },
+            { "nombre": "Invasión Saudita de Yemen", "year": 2015, "muertes": 15000  , "religiones": ["Islam"] }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "África",
+      "paises": [
+        {
+          "nombre": "Egipto",
+          "guerras": [
+            { "nombre": "Guerra árabe-israelí de 1948", "year": 1948, "muertes": 10000  , "religiones": ["Islam", "Judaísmo"] },
+            { "nombre": "Guerra de Yom Kippur", "year": 1973, "muertes":  10000 , "religiones": ["Islam", "Judaísmo"] },
+            { "nombre": "Guerra de Suez", "year": 1956, "muertes": 30000  , "religiones": ["Islam", "Judaísmo"] },
+            { "nombre": "Guerra Civil Egipcia", "year": 2011, "muertes": 10000  , "religiones": ["Islam"] },
+            { "nombre": "Guerra de Etiopía", "year": 1876, "muertes":  1000000 , "religiones": ["Cristianismo Ortodoxo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Nigeria",
+          "guerras": [
+            { "nombre": "Guerra Civil Nigeriana", "year": 1967, "muertes": 1000000  , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Conflicto Militante en el Delta del Níger", "year": 2004, "muertes": 20000  , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra de Biafra", "year": 1967, "muertes": 100000  , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra de Fulani", "year": 1804, "muertes":  500000 , "religiones": ["Islam"] },
+            { "nombre": "Guerra de Ife-Modakeke", "year": 1997, "muertes":  5000 , "religiones": ["Islam", "Cristianismo"] }
+          ]
+        },
+        {
+          "nombre": "Sudáfrica",
+          "guerras": [
+            { "nombre": "Guerra de Sudáfrica", "year": 1899, "muertes": 75000  , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra Anglo-Zulú", "year": 1879, "muertes": 15000  , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de la Frontera del Cabo", "year": 1779, "muertes":  20000 , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de la Frontera del Cabo", "year": 1793, "muertes":  30000 , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de Sudáfrica", "year": 1902, "muertes":  25000  , "religiones": ["Cristianismo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Argelia",
+          "guerras": [
+            { "nombre": "Guerra de Independencia de Argelia", "year": 1954, "muertes":  1000000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Conflicto Civil en Argelia", "year": 1991, "muertes":  200000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra Civil en Argelia", "year": 1992, "muertes":  200000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra de Independencia de Argelia", "year": 1956, "muertes":  500000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Conflicto Civil en Argelia", "year": 1990, "muertes":  100000 , "religiones": ["Islam", "Cristianismo"] }
+          ]
+        },
+        {
+          "nombre": "Sudán",
+          "guerras": [
+            { "nombre": "Guerra Civil Sudanesa", "year": 1955, "muertes":  2000000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra Civil Sudanesa", "year": 1983, "muertes":  1000000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra Civil Sudanesa", "year": 2013, "muertes":  300000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra Civil Sudanesa", "year": 1963, "muertes":  400000 , "religiones": ["Islam", "Cristianismo"] },
+            { "nombre": "Guerra Civil Sudanesa", "year": 1985, "muertes":  600000 , "religiones": ["Islam", "Cristianismo"] }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Oceanía",
+      "paises": [
+        {
+          "nombre": "Australia",
+          "guerras": [
+            { "nombre": "Guerra del Pacífico", "year": 1941, "muertes":  40000 , "religiones": ["Cristianismo", "Ateísmo"] },
+            { "nombre": "Guerra de Vietnam", "year": 1962, "muertes":  500 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  340 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Afganistán", "year": 2001, "muertes": 41,"religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de Irak", "year": 2003, "muertes":  654965 , "religiones": ["Cristianismo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Nueva Zelanda",
+          "guerras": [
+            { "nombre": "Guerra del Pacífico", "year": 1941, "muertes":  12000 , "religiones": ["Cristianismo", "Ateísmo"] },
+            { "nombre": "Guerra de Vietnam", "year": 1962, "muertes":  370 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  4700 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Afganistán", "year": 2001, "muertes":  1000 , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de Irak", "year": 2003, "muertes":  654965 , "religiones": ["Cristianismo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Papúa Nueva Guinea",
+          "guerras": [
+            { "nombre": "Guerra del Pacífico", "year": 1941, "muertes":  15000 , "religiones": ["Cristianismo", "Animismo"] },
+            { "nombre": "Guerra de Vietnam", "year": 1962, "muertes":  1000 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  500 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Afganistán", "year": 2001, "muertes":  7000 , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de Irak", "year": 2003, "muertes":  654965 , "religiones": ["Cristianismo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Fiyi",
+          "guerras": [
+            { "nombre": "Guerra del Pacífico", "year": 1941, "muertes":  700 , "religiones": ["Cristianismo", "Hinduismo"] },
+            { "nombre": "Guerra de Vietnam", "year": 1962, "muertes":  3000 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  4000 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Afganistán", "year": 2001, "muertes":  3000 , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de Irak", "year": 2003, "muertes":  654965 , "religiones": ["Cristianismo", "Islam"] }
+          ]
+        },
+        {
+          "nombre": "Tonga",
+          "guerras": [
+            { "nombre": "Guerra del Pacífico", "year": 1941, "muertes":  1000 , "religiones": ["Cristianismo"] },
+            { "nombre": "Guerra de Vietnam", "year": 1962, "muertes":  2000 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Corea", "year": 1950, "muertes":  1200 , "religiones": ["Cristianismo", "Ateísmo", "Budismo"] },
+            { "nombre": "Guerra de Afganistán", "year": 2001, "muertes":  6540 , "religiones": ["Cristianismo", "Islam"] },
+            { "nombre": "Guerra de Irak", "year": 2003, "muertes": 654965 , "religiones": ["Cristianismo", "Islam"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

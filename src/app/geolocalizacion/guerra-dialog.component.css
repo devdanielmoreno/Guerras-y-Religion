@@ -1,0 +1,30 @@
+* {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+mat-dialog-content {
+    background-color: white;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    font-family: 'Salsa', cursive;
+}
+
+th {
+    border-color: black;
+    width: 300px;
+    height: 100px;
+    font-family: 'Salsa', cursive;
+}
+
+mat-dialog-actions {
+    background-color: #7b1fa2;
+}
+
+h2 {
+    font-family: 'Salsa', cursive;
+    color: #7b1fa2;
+}

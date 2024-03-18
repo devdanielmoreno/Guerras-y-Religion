@@ -1,0 +1,32 @@
+<div>
+    <mat-dialog-content class="mat-typography">
+        <h2>Guerras de {{ paisSeleccionado?.nombre }}</h2>
+        <div *ngIf="guerras.length > 0">
+            <table mat-table [dataSource]="guerras" matSort (matSortChange)="announceSortChange($event)">
+                <ng-container matColumnDef="nombre">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by number"> Nombre
+                        de la Guerra </th>
+                    <td mat-cell *matCellDef="let guerra"> {{ guerra.nombre }} </td>
+                </ng-container>
+                <ng-container matColumnDef="year">
+                    <th mat-header-cell *matHeaderCellDef> Año </th>
+                    <td mat-cell *matCellDef="let guerra"> {{ guerra.year }} </td>
+                </ng-container>
+                <ng-container matColumnDef="muertes">
+                    <th mat-header-cell *matHeaderCellDef> Muertes </th>
+                    <td mat-cell *matCellDef="let guerra"> {{ guerra.muertes }} </td>
+                </ng-container>
+                <ng-container matColumnDef="religiones">
+                    <th mat-header-cell *matHeaderCellDef> Religiones Implicadas </th>
+                    <td mat-cell *matCellDef="let guerra"> {{ guerra.religiones }} </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="['nombre', 'year','muertes','religiones']"></tr>
+                <tr mat-row *matRowDef="let row; columns: ['nombre', 'year','muertes','religiones'];"></tr>
+            </table>
+        </div>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end">
+        <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Cerrar</button>
+    </mat-dialog-actions>
+</div>

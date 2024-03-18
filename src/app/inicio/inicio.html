@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="h1">Conflictos: Geopolítica y Religión</h1>
+    <div class="texto">
+        <p class="p">Explora el impacto de los intereses geopolíticos y religiosos en los conflictos mundiales a lo
+            largo de la historia y en el mundo contemporáneo.</p>
+        <p class="deslizar">Desliza para ver más</p>
+        <div class="lineas">
+            <p>|</p>
+            <p>|</p>
+            <p>|</p>
+            <p>|</p>
+            <p>|</p>
+            <p class="V">V</p>
+        </div>
+    </div>
+
+
+    <div class="imagen">
+        <img src="./assets/gerra.png" style="width: 100%; height: 100%;">
+    </div>
+    <div class="contenedor" [ngClass]="{'mostrar': mostrarElementos}">
+
+    </div>
+    <div class="contenedor-tarjetas" [ngClass]="{'mostrar': mostrarElementos}">
+        <mat-card class="ejemplo-tarjeta">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Conflictos por recursos naturales</mat-card-title>
+                <mat-card-subtitle>La explotacion de recursos</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="./assets/guerras.png" style="width: 100%; height: 70%;">
+            <mat-card-content class="contenido2">
+                <p class="card">La explotación de recursos naturales como el petróleo, el agua y los minerales es una de
+                    las principales causas de conflictos geopolíticos en el mundo actual.</p>
+            </mat-card-content>
+            <mat-card-footer>
+                <mat-progress-bar mode="buffer"></mat-progress-bar>
+            </mat-card-footer>
+        </mat-card>
+        <mat-card class="ejemplo-tarjeta">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image2"></div>
+                <mat-card-title>Diferencias religiosas</mat-card-title>
+                <mat-card-subtitle>Las diferencias</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="./assets/religion.jpg" style="width: 100%; height: 70%;">
+            <mat-card-content class="contenido3">
+                <p class="card">Las diferencias de creencias y prácticas religiosas pueden generar tensiones y
+                    conflictos entre comunidades.</p>
+            </mat-card-content>
+            <mat-spinner></mat-spinner>
+        </mat-card>
+        <mat-card class="ejemplo-tarjeta">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image3"></div>
+                <mat-card-title>Protesta contra los militares</mat-card-title>
+                <mat-card-subtitle>Manifestantes</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="./assets/protesta.jpg" style="width: 100%; height: 70%;">
+            <mat-card-content class="contenido">
+                <p class="card">Manifestantes se reúnen en la embajada para denunciar intervención militar extranjera. Demandan soluciones diplomáticas y el cese de hostilidades.
+                </p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+
+</body>
+
+</html>

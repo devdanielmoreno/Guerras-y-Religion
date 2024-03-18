@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.religiones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.example-container {
+    margin-bottom: 20px;
+    width: 30%; 
+    border-radius: 10px;
+}
+.example-sidenav-content {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.example-sidenav-content img {
+    width: 100%;
+    height: auto; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+
+.example-sidenav-content img:hover {
+    transform: scale(1.1); 
+}
+
+.example-sidenav p {
+    margin: 5px;
+    width: 300px;
+}
+
+mat-grid-list {
+    width: 70%;
+    margin: 0 auto;
+}
+
+mat-grid-tile {
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+mat-grid-tile h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+    opacity: 0.8;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+mat-grid-tile:hover h4 {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+}
+
+mat-grid-tile button {
+    width: 10%;
+    background-color: #9370db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+mat-grid-tile button:hover {
+    background-color: #7a5b9f;
+}.progress-bar {
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar-label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.progress-bar div {
+    margin-bottom: 15px;
+}
+
+progress {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 15px;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 15px;
+}
+
+progress::-moz-progress-bar {
+    border-radius: 15px;
+}
+
+progress::-ms-fill {
+    border-radius: 15px;
+}
+
+#Cristianismo::-moz-progress-bar { background-color: #db39f0; }
+#Islam::-moz-progress-bar { background-color: #8b17a8; }
+#Hinduismo::-moz-progress-bar { background-color: #410841; }

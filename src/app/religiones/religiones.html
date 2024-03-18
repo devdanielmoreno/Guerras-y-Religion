@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Religiones</title>
+</head>
+<body>
+    <h1 style="text-align: left; margin-left:10px;font-size: 40px; margin-top: -60px; color: white; font-family: 'Exo 2', sans-serif;">
+        Religiones mas grandes del mundo
+    </h1>
+    <div class="religiones">
+        <mat-drawer-container class="example-container" autosize>
+            <mat-drawer #drawer1 class="example-sidenav" mode="side">
+                <p> <b>Cristianismo</b><br>
+                    El Cristianismo es una religión abrahámica monoteísta que se basa en la vida, enseñanzas, muerte y resurrección de Jesucristo, el Mesías. Surgió en el siglo I en la región de Judea, parte del Imperio Romano. Su fundamento principal es la creencia en Jesucristo como el Hijo de Dios y el Salvador de la humanidad. Los seguidores de esta fe, conocidos como cristianos, creen en la Santísima Trinidad: Dios Padre, Dios Hijo (Jesucristo) y Dios Espíritu Santo.
+                </p>
+                </mat-drawer>
+            <div class="example-sidenav-content" (click)="drawer1.toggle()">
+                <img src="../assets/cristo.jpg" alt="foto del cristianismo">
+            </div>
+        </mat-drawer-container>
+        <mat-drawer-container class="example-container" autosize>
+            <mat-drawer #drawer2 class="example-sidenav" mode="side">
+                <p>
+                    <b>Islam</b><br>
+                    El Islam es una religión abrahámica monoteísta fundada en el siglo VII por el profeta Mahoma en la región de Arabia. Con más de mil millones de seguidores en todo el mundo, es una de las religiones más grandes y rápidamente crecientes. Los musulmanes creen en un único Dios, Alá, y consideran a Mahoma como el último y más importante de los profetas.
+                </p>
+            </mat-drawer>
+            <div class="example-sidenav-content" (click)="drawer2.toggle()">
+                <img src="../assets/mezquita.jpg" alt="foto del islam">
+            </div>
+        </mat-drawer-container>
+        <mat-drawer-container class="example-container" autosize>
+            <mat-drawer #drawer3 class="example-sidenav" mode="side">
+                <p>
+                    <b>Judaismo</b><br>
+                    El judaísmo es una de las religiones más antiguas del mundo, con una historia que se remonta a miles de años atrás. Es una religión abrahámica monoteísta que se basa en la fe en un único Dios, Yahvé, y en la Torá, que incluye los cinco libros de Moisés, también conocidos como el Pentateuco. Los judíos creen en la alianza entre Dios y el pueblo judío, establecida en la revelación en el monte Sinaí y reafirmada a lo largo de la historia.
+                </p>
+                
+            </mat-drawer>
+            <div class="example-sidenav-content" (click)="drawer3.toggle()">
+                <img src="../assets/judaismo.jpg" alt="foto del judaismo">
+            </div>
+        </mat-drawer-container>
+    </div>
+    <div class="progress-bar">
+        <h2 class="progress-bar-label">Progreso de las tres religiones más practicadas:</h2>
+        <div>Cristianismo: <progress max="100" value="90" id="Cristianismo"></progress> 60%</div>
+        <div>Islam: <progress max="100" value="60" id="Islam"></progress> 30%</div>
+        <div>Judaismo: <progress max="100" value="30" id="Hinduismo"></progress> 10%</div>
+    </div>
+</body>
+</html>

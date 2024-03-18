@@ -1,0 +1,68 @@
+<div class="todo">
+<div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1;">
+        <div style="margin-top: 40px;">
+            <h2><label>Selecciona un continente: </label></h2>
+            <mat-radio-group [(ngModel)]="continenteSeleccionado">
+                <button mat-raised-button *ngFor="let continente of filteredContinentes | async" [value]="continente" (click)="buscarPaises(continente); centrarEnContinente(continente)">
+                    <span class="con">{{continente}}</span>
+                </button>
+            </mat-radio-group>
+        </div>
+        <br>
+        <div class="divCon" *ngIf="continenteSeleccionado !== 'Todos'" [@fadeInOut]>
+            <h2 class="h2">Lista de Países de {{continenteSeleccionado}}</h2>
+                <mat-list *ngFor="let pais of paises" (click)="mostrarGuerras(pais)">{{ pais.nombre }}</mat-list>
+        </div>
+    </div>
+
+    <div style="flex: 1;">
+        <div style="border: 5px solid rebeccapurple; margin-top: 40px; margin-right: 5%;">
+            <div id="map" style="width: 100%; height: 550px;"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="p" *ngIf="continenteSeleccionado === 'Todos'" [@moveAndRotate]>
+    <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8" matSort (matSortChange)="announceSortChange($event)">
+        <ng-container matColumnDef="continente">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Continente</th>
+            <td mat-cell *matCellDef="let info">{{ info.continente }}</td>
+        </ng-container>
+        <ng-container matColumnDef="pais">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>País</th>
+            <td mat-cell *matCellDef="let info">{{ info.pais }}</td>
+        </ng-container>
+        <ng-container matColumnDef="guerra">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Guerra</th>
+            <td mat-cell *matCellDef="let info">{{ info.guerra }}</td>
+        </ng-container>
+        <ng-container matColumnDef="year">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Año</th>
+            <td mat-cell *matCellDef="let info">{{ info.year }}</td>
+        </ng-container>
+        <ng-container matColumnDef="muertes">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Muertes</th>
+            <td mat-cell *matCellDef="let info">{{ info.muertes }}</td>
+        </ng-container>
+        <ng-container matColumnDef="religiones">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Religiones Implicadas</th>
+            <td mat-cell *matCellDef="let info">{{ info.religiones }}</td>
+        </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        
+    </table>
+    <div class="filter-container">
+        <mat-form-field appearance="outline">
+        <input matInput (keyup)="applyFilter($event)" placeholder="Filtrar">
+        </mat-form-field>
+    </div>
+    
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" showFirstLastButtons [pageSize]="pageSize" [length]="dataSource.data.length">
+    </mat-paginator>
+</div>
+
+</div>
